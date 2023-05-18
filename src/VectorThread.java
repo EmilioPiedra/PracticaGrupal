@@ -49,7 +49,8 @@ public class VectorThread extends Thread {
         hilo3.start();
         Thread.sleep(1000);
         hilo4.start();
-
+//CAMBIO GILBERT SOLANO
+        System.out.println("Hola mundo......");
         System.out.println("hola mundo programacion avanzada");
 // Imprimir los vectores
         System.out.println("Vector 1: " + Arrays.toString(vector1));
