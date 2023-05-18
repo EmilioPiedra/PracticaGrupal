@@ -51,7 +51,7 @@ public class VectorThread extends Thread {
         Thread.sleep(1000);
         hilo4.start();
 
-
+        System.out.println("hola mundo");
 // Imprimir los vectores
         System.out.println("Vector 1: " + Arrays.toString(vector1));
         System.out.println("Vector 2: " + Arrays.toString(vector2));
