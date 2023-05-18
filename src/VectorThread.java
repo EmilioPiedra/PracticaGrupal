@@ -42,6 +42,7 @@ public class VectorThread extends Thread {
         VectorThread hilo4 = new VectorThread(vector4);
         //nomnbres
         System.out.println("Gilbert Solano");
+        System.out.println("Joseph Martinez");
         hilo1.start();
         Thread.sleep(1000);
         hilo2.start();
