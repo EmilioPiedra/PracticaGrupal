@@ -4,12 +4,17 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class VectorThread extends Thread {
+
+    //Creamos el Vector
     public int[] vector;
+
 
     public VectorThread(int[] vector) {
         this.vector = vector;
     }
 
+
+    //Metodo para llenar el vector con 10000 numero aleatorios
     public void run() {
         for (int i = 0; i < vector.length; i++) {
             vector[i] = (int) (Math.random() * 100000) + 1;
