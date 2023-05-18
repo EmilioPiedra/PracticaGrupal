@@ -8,7 +8,6 @@ public class VectorThread extends Thread {
     //Creamos el Vector
     public int[] vector;
 
-
     public VectorThread(int[] vector) {
         this.vector = vector;
     }
@@ -23,7 +22,7 @@ public class VectorThread extends Thread {
     }
 
     public static void main(String[] args) throws InterruptedException {
-
+        System.out.println("Hola este commit es de DiegoJP");
         // inicializamos el tamaño del Vector
         int tamañoVector =10000;
 
