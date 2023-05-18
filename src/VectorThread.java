@@ -34,7 +34,6 @@ public class VectorThread extends Thread {
         System.out.println("Hola mundo programacion avanzada");
         System.out.println("Hola soy Joseph");
         System.out.println("Hola soy Alex Aguirre");
-        System.out.println("Hols soy Jhandry Solórzano");
         //le asigamos a cada hilo su Matriz
 
         VectorThread hilo1 = new VectorThread(vector1);
@@ -50,7 +49,7 @@ public class VectorThread extends Thread {
         Thread.sleep(1000);
         hilo4.start();
 //CAMBIO GILBERT SOLANO
-        System.out.println("Hola mundo......");
+        System.out.println("Hola soy Gilbert Solano");
         System.out.println("hola mundo programacion avanzada");
 // Imprimir los vectores
         System.out.println("Vector 1: " + Arrays.toString(vector1));
