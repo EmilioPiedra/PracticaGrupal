@@ -8,7 +8,6 @@ public class VectorThread extends Thread {
     //Creamos el Vector
     public int[] vector;
 
-
     public VectorThread(int[] vector) {
         this.vector = vector;
     }
@@ -23,7 +22,7 @@ public class VectorThread extends Thread {
     }
 
     public static void main(String[] args) throws InterruptedException {
-
+        System.out.println("Hola este commit es de DiegoJP");
         // inicializamos el tamaño del Vector
         int tamañoVector =10000;
 
@@ -35,6 +34,7 @@ public class VectorThread extends Thread {
         System.out.println("Hola mundo programacion avanzada");
         System.out.println("Hola soy Joseph");
         System.out.println("Hola soy Alex Aguirre");
+        System.out.println("Hols soy Jhandry Solórzano");
         //le asigamos a cada hilo su Matriz
 
         VectorThread hilo1 = new VectorThread(vector1);
