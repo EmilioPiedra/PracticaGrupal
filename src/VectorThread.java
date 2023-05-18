@@ -22,7 +22,7 @@ public class VectorThread extends Thread {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("Hola este commit es de DiegoJP");
+
         // inicializamos el tamaño del Vector
         int tamañoVector =10000;
 
@@ -31,9 +31,7 @@ public class VectorThread extends Thread {
         int[] vector2 = new int[tamañoVector];
         int[] vector3 = new int[tamañoVector];
         int[] vector4 = new int[tamañoVector];
-        System.out.println("Hola mundo programacion avanzada");
-        System.out.println("Hola soy Joseph Martinez");
-        System.out.println("Hola soy Alex Aguirre");
+
         //le asigamos a cada hilo su Matriz
 
         VectorThread hilo1 = new VectorThread(vector1);
@@ -48,9 +46,6 @@ public class VectorThread extends Thread {
         hilo3.start();
         Thread.sleep(1000);
         hilo4.start();
-//CAMBIO GILBERT SOLANO
-        System.out.println("Hola soy Gilbert Solano");
-        System.out.println("hola mundo programacion avanzada");
 // Imprimir los vectores
         System.out.println("Vector 1: " + Arrays.toString(vector1));
         System.out.println("Vector 2: " + Arrays.toString(vector2));
