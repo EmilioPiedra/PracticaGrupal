@@ -24,17 +24,25 @@ public class VectorThread extends Thread {
 
     public static void main(String[] args) throws InterruptedException {
 
+        // inicializamos el tamaño del Vector
         int tamañoVector =10000;
 
+        //Cda Hilo es Asignado un tamaño
         int[] vector1 = new int[tamañoVector];
         int[] vector2 = new int[tamañoVector];
         int[] vector3 = new int[tamañoVector];
         int[] vector4 = new int[tamañoVector];
+
+        //Crea la Matriz con sus respectivos tamaños
         int[][] matriz = new int[4][tamañoVector]
+
+        //e asigamos a cada hilo su Matriz
+
         VectorThread hilo1 = new VectorThread(vector1);
         VectorThread hilo2 = new VectorThread(vector2);
         VectorThread hilo3 = new VectorThread(vector3);
         VectorThread hilo4 = new VectorThread(vector4);
+
         hilo1.start();
         Thread.sleep(1000);
         hilo2.start();
