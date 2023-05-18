@@ -33,7 +33,7 @@ public class VectorThread extends Thread {
         int[] vector3 = new int[tamañoVector];
         int[] vector4 = new int[tamañoVector];
         System.out.println("Hola mundo programacion avanzada");
-        System.out.println("Hola soy Joseph");
+        System.out.println("Hola soy Joseph Martinez");
         //le asigamos a cada hilo su Matriz
 
         VectorThread hilo1 = new VectorThread(vector1);
